@@ -5,7 +5,7 @@
     "title": "The Monochrome Manifesto: Reduction as a Design Philosophy",
     "subtitle": "Stripping away hue to reveal core hierarchy, typography, and purposeful spatial rhythms.",
     "date": "2026-08-01",
-    "coverImage": "/images/architecture.jpg",
+    "coverImage": "posts/monochrome-manifesto/architecture.jpg",
     "author": {
       "name": "Elena Rostova",
       "handle": "@erostova",
@@ -23,7 +23,7 @@
       },
       {
         "type": "image",
-        "url": "/images/architecture.jpg",
+        "url": "posts/monochrome-manifesto/architecture.jpg",
         "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
       },
       {
@@ -65,7 +65,7 @@
     "title": "JSON as a Pure Content Engine",
     "subtitle": "Why static, portable JSON schemas remain the ultimate format for long-term digital archivism.",
     "date": "2026-07-24",
-    "coverImage": "/images/workspace.jpg",
+    "coverImage": "posts/json-as-content-engine/workspace.jpg",
     "author": {
       "name": "Marcus Vance",
       "handle": "@mvance",
@@ -83,7 +83,7 @@
       },
       {
         "type": "image",
-        "url": "/images/workspace.jpg",
+        "url": "posts/json-as-content-engine/workspace.jpg",
         "caption": "Figure 2.1: A minimalist developer workspace optimized for focus and raw code parsing."
       },
       {
