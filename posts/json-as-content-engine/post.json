@@ -4,7 +4,7 @@
   "title": "JSON as a Pure Content Engine",
   "subtitle": "Why static, portable JSON schemas remain the ultimate format for long-term digital archivism.",
   "date": "2026-07-24",
-  "coverImage": "workspace.jpg",
+  "coverImage": "workspace.webp",
   "author": {
     "name": "Marcus Vance",
     "handle": "@mvance",
@@ -22,7 +22,7 @@
     },
     {
       "type": "image",
-      "url": "/images/workspace.jpg",
+      "url": "workspace.webp",
       "caption": "Figure 2.1: A minimalist developer workspace optimized for focus and raw code parsing."
     },
     {

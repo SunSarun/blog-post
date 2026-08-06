@@ -4,7 +4,7 @@
   "title": "The Monochrome Manifesto: Reduction as a Design Philosophy",
   "subtitle": "Stripping away hue to reveal core hierarchy, typography, and purposeful spatial rhythms.",
   "date": "2026-08-01",
-  "coverImage": "architecture.jpg",
+  "coverImage": "architecture.webp",
   "author": {
     "name": "Elena Rostova",
     "handle": "@erostova",
@@ -22,7 +22,7 @@
     },
     {
       "type": "image",
-      "url": "/images/architecture.jpg",
+      "url": "architecture.webp",
       "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
     },
     {
