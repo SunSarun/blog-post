@@ -79,6 +79,7 @@
     "title": "Minecraft Bedrock Dedicated Server Hosting with Docker, Docker Compose and Reverse Proxy",
     "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
     "date": "2026-08-08",
+    "coverImage": "posts/minecraft-hosting-with-docker-dockercompose-and-reverseproxy/minecraft.webp",
     "author": {
       "name": "Sun Sarun",
       "handle": "@Sun_Sarun",
