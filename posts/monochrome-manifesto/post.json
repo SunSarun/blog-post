@@ -13,7 +13,7 @@
   "category": "Design",
   "tags": ["Minimalism", "Typography", "Architecture", "Design Systems"],
   "readTime": "4 min read",
-  "featured": true,
+  "featured": false,
   "summary": "When color is stripped away, every interface element must justify its presence through spatial weight, typographic hierarchy, and structural contrast.",
   "content": [
     {
