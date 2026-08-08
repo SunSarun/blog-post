@@ -14,7 +14,7 @@
     "category": "Hosting",
     "tags": ["Game", "Server","Hosting"],
     "readTime": "5 min read",
-    "featured": false,
+    "featured": true,
     "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
     "content": [
       {
