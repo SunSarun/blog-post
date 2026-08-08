@@ -1,36 +1,36 @@
 {
-  "id": "digital-brutalism-and-clarity",
-  "slug": "digital-brutalism-and-clarity",
-  "title": "Digital Brutalism and the Search for Speed",
-  "subtitle": "How eliminating unnecessary scripts and heavy assets leads to lightning-fast load times.",
-  "date": "2026-07-10",
-  "author": {
-    "name": "Elena Rostova",
-    "handle": "@erostova",
-    "role": "Principal Design Architect"
-  },
-  "category": "Performance",
-  "tags": ["Minimalism", "Performance", "Web Development"],
-  "readTime": "3 min read",
-  "featured": false,
-  "summary": "Modern web applications have bloated beyond reason. Embracing digital brutalism offers a path back to speed, accessibility, and focus.",
-  "content": [
-    {
-      "type": "paragraph",
-      "text": "The average webpage today transfers megabytes of JavaScript tracking bundles, heavy font files, and unoptimized high-res marketing images before displaying a single paragraph of text."
+"id": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
+    "slug": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
+    "title": "Minecraft Bedrock Dedicated Server Hosting with Docker, Docker Compose and Reverse Proxy",
+    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+    "date": "2026-08-08",
+    "author": {
+      "name": "Sun Sarun",
+      "handle": "@Sun_Sarun",
+      "role": "IT Support"
     },
-    {
-      "type": "paragraph",
-      "text": "Minimalist black and white design isn't merely an aesthetic choice; it's a structural optimization. By removing background hero videos and heavy graphic libraries, sub-millisecond initial content paints become standard."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Core Metrics of Minimal Design"
-    },
-    {
-      "type": "paragraph",
-      "text": "When evaluated across key performance metrics, minimalist text-first pages achieve perfect Lighthouse benchmark scores naturally."
-    }
-  ]
+    "category": "Hosting",
+    "tags": ["Game", "Server"],
+    "readTime": "5 min read",
+    "featured": false,
+    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tuning Contrast for Prolonged Reading"
+      },
+      {
+        "type": "paragraph",
+        "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
+      },
+      {
+        "type": "blockquote",
+        "text": "Good typography is invisible; great dark mode typography is effortless."
+      }
+    ]
 }
