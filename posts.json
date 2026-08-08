@@ -14,7 +14,7 @@
     "category": "Design",
     "tags": ["Minimalism", "Typography", "Architecture", "Design Systems"],
     "readTime": "4 min read",
-    "featured": true,
+    "featured": false,
     "summary": "When color is stripped away, every interface element must justify its presence through spatial weight, typographic hierarchy, and structural contrast."
   },
   {
@@ -88,7 +88,7 @@
     "category": "Hosting",
     "tags": ["Game", "Server"],
     "readTime": "5 min read",
-    "featured": false,
+    "featured": true,
     "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community."
      }
 ]
