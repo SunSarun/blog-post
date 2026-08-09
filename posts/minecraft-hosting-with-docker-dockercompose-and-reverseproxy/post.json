@@ -1,66 +1,117 @@
 {
-"id": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
-    "slug": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
-    "title": "Minecraft Bedrock Dedicated Server Hosting with Docker, Docker Compose and Reverse Proxy",
-    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
-    "date": "2026-08-08",
-    "coverImage": "minecraft.webp",
-    "author": {
-      "name": "Sun Sarun",
-      "profile": "../profile.webp",
-      "handle": "@Sun_Sarun",
-      "role": "IT Support"
+  "id": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
+  "slug": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
+  "title": "Hosting Minecraft Bedrock Dedicated Server with Docker, Docker Compose and Reverse Proxy",
+  "date": "2026-08-01",
+  "coverImage": "minecraft.webp",
+  "author": {
+    "name": "Sun Sarun",
+    "profile": "../profile.webp",
+    "handle": "@Sun_Sarun",
+    "role": "IT Support"
+  },
+  "category": "Hosting",
+  "tags": ["Game", "Server","Hosting","Window", "Linux"],
+  "readTime": "15 min read",
+  "featured": true,
+  "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Hosting Minecraft using Docker is the most easiest way to hosting a server to play with friend. By using Docker you eliminate the server being install on system and by using a proxy you eliminate exposting your real IP and any port being open, that could cause a security risk."
     },
-    "category": "Hosting",
-    "tags": ["Game", "Server","Hosting"],
-    "readTime": "5 min read",
-    "featured": true,
-    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "1. Installing Docker and Docker-Compose"
-      },
+    {
+      "type": "heading",
+      "level": 1
+      "text": "1. Window System"
+    },
+    {
+      "type": "heading",
+      "level": 2
+      "text": "1.1 Install Docker"
+    },
     {
       "type": "image",
-      "url": "minecraft.webp",
-      "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
+      "url": "what-is-docker.webp",
     },
-     {
-        "type": "paragraph",
-        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "2. Create and Run Docker Compose File"
-      },
+    {
+      "type": "paragraph",
+      "text": "Install Docker Desktop intsall from the offical website:\n https://docs.docker.com/desktop/setup/install/windows-install/"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1.2. Getting Reverse Proxy Token From Playit.gg"
+    },
     {
       "type": "image",
-      "url": "minecraft.webp",
-      "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
+      "url": "playit-hops.webp",
+      "caption": "Use you broswer and go to https://playit.gg/"
     },
-    {
-        "type": "paragraph",
-        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-      },
     {
       "type": "code",
-      "language": "docker-compose",
+      "language": "URL",
+      "code": "https://playit.gg/"
+    },
+    {
+      "type": "image",
+      "url": "playitCreateAccount.webp",
+      "caption": "Create Playit.gg Account."
+    },
+    {
+      "type": "image",
+      "url": "newtoken.webp",
+      "caption": "Select: Setup > New Account Wizard."
+    },
+    {
+      "type": "image",
+      "url": "docker-token.webp",
+      "caption": "Select: Docker."
+    },
+    {
+      "type": "image",
+      "url": "docker-docker-token-name.webp",
+      "caption": "Name the Agent."
+    },
+    {
+      "type": "image",
+      "url": "secretkey.webp",
+      "caption": "Copy the Secret Key."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1.3. Create Docker Compose File"
+    },
+    {
+      "type": "image",
+      "url": "docker-compose.webp",
+    },
+    {
+      "type": "paragraph",
+      "text": "Open fileexploror and move to \Document and create a Folder \MinecraftServer then create a YML file\n in the folder \MinecraftServer\docker-compose.yml "
+    },
+    {
+      "type": "code",
+      "language": "docker-compose.yml",
       "code": "/* Example Monochrome Design Tokens */\n:root {\n  --bg-primary: #050505;\n  --bg-secondary: #111111;\n  --border-subtle: #222222;\n  --text-primary: #ffffff;\n  --text-secondary: #a0a0a0;\n  --text-muted: #666666;\n  --font-serif: 'Newsreader', Georgia, serif;\n  --font-sans: 'Inter', system-ui, sans-serif;\n  --font-mono: 'JetBrains Mono', monospace;\n}"
     },
-      {
-        "type": "paragraph",
-        "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
-      },
-      {
-        "type": "blockquote",
-        "text": "Good typography is invisible; great dark mode typography is effortless."
-      }
-    ]
+    {
+      "type": "paragraph",
+      "text": "Save the file and exit."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1.4 Running Docker Compose File"
+    },
+    {
+      "type": "paragraph",
+      "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
+    },
+    {
+      "type": "blockquote",
+      "text": "Good typography is invisible; great dark mode typography is effortless."
+    }
+  ]
 }
