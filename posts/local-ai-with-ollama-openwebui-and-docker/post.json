@@ -1,7 +1,7 @@
 {
-"id": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
-    "slug": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
-    "title": "Minecraft Bedrock Dedicated Server Hosting with Docker, Docker Compose and Reverse Proxy",
+"id": "local-ai-with-ollama-openwebui-and-docker",
+    "slug": "local-ai-with-ollama-openwebui-and-docker",
+    "title": "Hosting Loal AI with Ollama, OpenwebUI on Docker",
     "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
     "date": "2026-08-08",
     "coverImage": "ollama-docker.webp",
@@ -14,7 +14,7 @@
     "category": "Hosting",
     "tags": ["Game", "Server","Hosting"],
     "readTime": "5 min read",
-    "featured": true,
+    "featured": false,
     "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
     "content": [
       {
