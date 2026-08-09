@@ -2,7 +2,7 @@
   "id": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
   "slug": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
   "title": "Hosting Minecraft Bedrock Dedicated Server with Docker, Docker Compose and Reverse Proxy",
-  "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+  "subtitle": "A",
   "date": "2026-08-01",
   "coverImage": "minecraft.webp",
   "author": {
@@ -38,8 +38,14 @@
     },
     {
       "type": "paragraph",
-      "text": "Install Docker Desktop intsall from the offical website:\n https://docs.docker.com/desktop/setup/install/windows-install/"
+      "text": "Install Docker Desktop intsall from the offical website."
     },
+    {
+      "type": "code",
+      "language": "URL",
+      "code": "https://docs.docker.com/desktop/setup/install/windows-install/"
+    },
+
     {
       "type": "heading",
       "level": 2,
