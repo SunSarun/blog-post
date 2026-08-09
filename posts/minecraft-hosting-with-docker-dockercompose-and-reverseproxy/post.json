@@ -2,6 +2,7 @@
   "id": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
   "slug": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
   "title": "Hosting Minecraft Bedrock Dedicated Server with Docker, Docker Compose and Reverse Proxy",
+  "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
   "date": "2026-08-01",
   "coverImage": "minecraft.webp",
   "author": {
@@ -33,6 +34,7 @@
     {
       "type": "image",
       "url": "what-is-docker.webp",
+      "caption": "Create Playit.gg Account."
     },
     {
       "type": "paragraph",
@@ -86,6 +88,7 @@
     {
       "type": "image",
       "url": "docker-compose.webp",
+      "caption": "Create Playit.gg Account."
     },
     {
       "type": "paragraph",
