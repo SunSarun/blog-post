@@ -109,5 +109,24 @@
     "readTime": "5 min read",
     "featured": false,
     "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+  },
+{
+"id": "setup-edge-type1hypervisor-using-arch-qemu-and-cockpit",
+    "slug": "setup-edge-type1hypervisor-using-arch-qemu-and-cockpit",
+    "title": "Setup Edge Type1 Hypervisor using Arch, Qemu and Cockpit",
+    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+    "date": "2026-08-08",
+    "coverImage": "kvm-vagrant-archlinux.webp",
+    "author": {
+      "name": "Sun Sarun",
+      "profile": "../profile.webp",
+      "handle": "@Sun_Sarun",
+      "role": "IT Support"
+    },
+    "category": "Hosting",
+    "tags": ["Game", "Server","Hosting"],
+    "readTime": "5 min read",
+    "featured": true,
+    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
   }
 ]
