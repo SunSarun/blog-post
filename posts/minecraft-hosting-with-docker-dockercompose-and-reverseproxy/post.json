@@ -23,12 +23,12 @@
     },
     {
       "type": "heading",
-      "level": 1
+      "level": 1,
       "text": "1. Window System"
     },
     {
       "type": "heading",
-      "level": 2
+      "level": 2,
       "text": "1.1 Install Docker"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Open fileexploror and move to \Document and create a Folder \MinecraftServer then create a YML file\n in the folder \MinecraftServer\docker-compose.yml "
+      "text": "Open fileexploror and move to \\Document and create a Folder \\MinecraftServer then create a YML file\n in the folder \\MinecraftServer\\docker-compose.yml"
     },
     {
       "type": "code",
