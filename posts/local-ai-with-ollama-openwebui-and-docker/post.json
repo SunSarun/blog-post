@@ -1,0 +1,66 @@
+{
+"id": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
+    "slug": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
+    "title": "Minecraft Bedrock Dedicated Server Hosting with Docker, Docker Compose and Reverse Proxy",
+    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+    "date": "2026-08-08",
+    "coverImage": "ollama-docker.webp",
+    "author": {
+      "name": "Sun Sarun",
+      "profile": "../profile.webp",
+      "handle": "@Sun_Sarun",
+      "role": "IT Support"
+    },
+    "category": "Hosting",
+    "tags": ["Game", "Server","Hosting"],
+    "readTime": "5 min read",
+    "featured": true,
+    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "1. Installing Docker and Docker-Compose"
+      },
+    {
+      "type": "image",
+      "url": "diagram.webp",
+      "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
+    },
+     {
+        "type": "paragraph",
+        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2. Create and Run Docker Compose File"
+      },
+    {
+      "type": "image",
+      "url": "ollama-docker.webp",
+      "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
+    },
+    {
+        "type": "paragraph",
+        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+      },
+    {
+      "type": "code",
+      "language": "docker-compose",
+      "code": "/* Example Monochrome Design Tokens */\n:root {\n  --bg-primary: #050505;\n  --bg-secondary: #111111;\n  --border-subtle: #222222;\n  --text-primary: #ffffff;\n  --text-secondary: #a0a0a0;\n  --text-muted: #666666;\n  --font-serif: 'Newsreader', Georgia, serif;\n  --font-sans: 'Inter', system-ui, sans-serif;\n  --font-mono: 'JetBrains Mono', monospace;\n}"
+    },
+      {
+        "type": "paragraph",
+        "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
+      },
+      {
+        "type": "blockquote",
+        "text": "Good typography is invisible; great dark mode typography is effortless."
+      }
+    ]
+}
