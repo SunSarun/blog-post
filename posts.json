@@ -90,5 +90,24 @@
     "readTime": "5 min read",
     "featured": true,
     "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community."
-     }
+     },
+{
+"id": "local-ai-with-ollama-openwebui-and-docker",
+    "slug": "local-ai-with-ollama-openwebui-and-docker",
+    "title": "Hosting Loal AI with Ollama, OpenwebUI on Docker",
+    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+    "date": "2026-08-08",
+    "coverImage": "ollama-docker.webp",
+    "author": {
+      "name": "Sun Sarun",
+      "profile": "../profile.webp",
+      "handle": "@Sun_Sarun",
+      "role": "IT Support"
+    },
+    "category": "Hosting",
+    "tags": ["Game", "Server","Hosting"],
+    "readTime": "5 min read",
+    "featured": false,
+    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+  }
 ]
