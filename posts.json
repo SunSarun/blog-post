@@ -1,135 +1,26 @@
 [
   {
-    "id": "monochrome-manifesto",
-    "slug": "monochrome-manifesto",
-    "title": "The Monochrome Manifesto: Reduction as a Design Philosophy",
-    "subtitle": "Stripping away hue to reveal core hierarchy, typography, and purposeful spatial rhythms.",
-    "date": "2026-08-01",
-    "coverImage": "posts/monochrome-manifesto/architecture.jpg",
-    "author": {
-      "name": "Elena Rostova",
-      "handle": "@erostova",
-      "role": "Principal Design Architect"
-    },
-    "category": "Design",
-    "tags": ["Minimalism", "Typography", "Architecture", "Design Systems"],
-    "readTime": "4 min read",
-    "featured": false,
-    "summary": "When color is stripped away, every interface element must justify its presence through spatial weight, typographic hierarchy, and structural contrast."
+    "id": "monochrome-manifesto"
   },
   {
-    "id": "json-as-content-engine",
-    "slug": "json-as-content-engine",
-    "title": "JSON as a Pure Content Engine",
-    "subtitle": "Why static, portable JSON schemas remain the ultimate format for long-term digital archivism.",
-    "date": "2026-07-24",
-    "coverImage": "posts/json-as-content-engine/workspace.jpg",
-    "author": {
-      "name": "Marcus Vance",
-      "handle": "@mvance",
-      "role": "Systems Engineer"
-    },
-    "category": "Engineering",
-    "tags": ["JSON", "Web Architecture", "Data Models", "Svelte"],
-    "readTime": "6 min read",
-    "featured": false,
-    "summary": "Database abstractions come and go, but clean JSON files outlast frameworks. A look at structuring resilient document schemas for blog platforms."
-  },
-
-
-  {
-    "id": "digital-brutalism-and-clarity",
-    "slug": "digital-brutalism-and-clarity",
-    "title": "Digital Brutalism and the Search for Speed",
-    "subtitle": "How eliminating unnecessary scripts and heavy assets leads to lightning-fast load times.",
-    "date": "2026-07-10",
-    "author": {
-      "name": "Elena Rostova",
-      "handle": "@erostova",
-      "role": "Principal Design Architect"
-    },
-    "category": "Performance",
-    "tags": ["Minimalism", "Performance", "Web Development"],
-    "readTime": "3 min read",
-    "featured": false,
-    "summary": "Modern web applications have bloated beyond reason. Embracing digital brutalism offers a path back to speed, accessibility, and focus."
-  },
-
-
-  {
-    "id": "typography-in-the-dark",
-    "slug": "typography-in-the-dark",
-    "title": "Typography in the Dark: Contrast and Legibility",
-    "subtitle": "Designing comfortable night-mode reader experiences through micro-adjustments in line height and weight.",
-    "date": "2026-06-28",
-    "author": {
-      "name": "Kaito Tanaka",
-      "handle": "@ktanaka",
-      "role": "Typography Researcher"
-    },
-    "category": "Typography",
-    "tags": ["Typography", "UX", "Accessibility"],
-    "readTime": "5 min read",
-    "featured": false,
-    "summary": "Pure white text on pitch black backgrounds can cause eye fatigue if font weights and tracking are not calibrated thoughtfully."
+    "id": "json-as-content-engine"
   },
   {
-    "id": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
-    "slug": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
-    "title": "Minecraft Bedrock Dedicated Server Hosting with Docker, Docker Compose and Reverse Proxy",
-    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
-    "date": "2026-08-08",
-    "coverImage": "posts/minecraft-hosting-with-docker-dockercompose-and-reverseproxy/minecraft.webp",
-    "author": {
-      "name": "Sun Sarun",
-      "handle": "@Sun_Sarun",
-      "role": "IT Support"
-    },
-    "category": "Hosting",
-    "tags": ["Game", "Server"],
-    "readTime": "5 min read",
-    "featured": true,
-    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community."
-     },
-{
-"id": "local-ai-with-ollama-openwebui-and-docker",
-    "slug": "local-ai-with-ollama-openwebui-and-docker",
-    "title": "Hosting Loal AI with Ollama, OpenwebUI on Docker",
-    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
-    "date": "2026-08-08",
-    "coverImage": "ollama-docker.webp",
-    "author": {
-      "name": "Sun Sarun",
-      "profile": "../profile.webp",
-      "handle": "@Sun_Sarun",
-      "role": "IT Support"
-    },
-    "category": "Hosting",
-    "tags": ["Game", "Server","Hosting"],
-    "readTime": "5 min read",
-    "featured": false,
-    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+    "id": "digital-brutalism-and-clarity"
   },
-{
-"id": "setup-edge-type1hypervisor-using-arch-qemu-and-cockpit",
-    "slug": "setup-edge-type1hypervisor-using-arch-qemu-and-cockpit",
-    "title": "Setup Edge Type1 Hypervisor using Arch, Qemu and Cockpit",
-    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
-    "date": "2026-08-08",
-    "coverImage": "kvm-vagrant-archlinux.webp",
-    "author": {
-      "name": "Sun Sarun",
-      "profile": "../profile.webp",
-      "handle": "@Sun_Sarun",
-      "role": "IT Support"
-    },
-    "category": "Hosting",
-    "tags": ["Game", "Server","Hosting"],
-    "readTime": "5 min read",
-    "featured": false,
-    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+  {
+    "id": "typography-in-the-dark"
   },
-{
-"id": "remote-ssh-through-cloudflare",
-     }
+  {
+    "id": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy"
+  },
+  {
+    "id": "local-ai-with-ollama-openwebui-and-docker"
+  },
+  {
+    "id": "setup-edge-type1hypervisor-using-arch-qemu-and-cockpit"
+  },
+  {
+    "id": "remote-ssh-through-cloudflare"
+  }
 ]
