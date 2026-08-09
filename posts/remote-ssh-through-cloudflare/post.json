@@ -1,10 +1,10 @@
 {
-"id": "setup-edge-type1hypervisor-using-arch-qemu-and-cockpit",
-    "slug": "setup-edge-type1hypervisor-using-arch-qemu-and-cockpit",
-    "title": "Setup Edge Type1 Hypervisor using Arch, Qemu and Cockpit",
+"id": "remote-ssh-through-cloudflare",
+    "slug": "remote-ssh-through-cloudflare",
+    "title": "Set up SSH remote from public domain to Home server",
     "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
     "date": "2026-08-08",
-    "coverImage": "kvm-vagrant-archlinux.webp",
+    "coverImage": "ssh-through-cloudflare.webp",
     "author": {
       "name": "Sun Sarun",
       "profile": "../profile.webp",
@@ -28,7 +28,7 @@
       },
     {
       "type": "image",
-      "url": "type1-type2-hypervisor.webp",
+      "url": "ssh-through-cloudflare.webp",
       "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
     },
      {
@@ -42,7 +42,7 @@
       },
     {
       "type": "image",
-      "url": "type1-type2-hypervisor.webp",
+      "url": "ssh-through-cloudflare.webp",
       "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
     },
     {
