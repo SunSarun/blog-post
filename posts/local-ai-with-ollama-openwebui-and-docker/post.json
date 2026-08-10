@@ -31,10 +31,7 @@
       "url": "diagram.webp",
       "caption": ""
     },
-    {
-      "type": "paragraph",
-      "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-    },
+
     {
       "type": "heading",
       "level": 2,
@@ -47,7 +44,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Install docker on your system."
+      "text": "Everything is run on Docker for easy managament and operation, Through Docker compose you can run multiple docker container from a single docker-compose file."
     },
     {
       "type": "heading",
