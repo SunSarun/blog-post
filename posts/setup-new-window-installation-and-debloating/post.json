@@ -4,7 +4,7 @@
     "title": "Prepare window system after after fresh installation",
     "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
     "date": "2026-08-08",
-    "coverImage": "minecraft.webp",
+    "coverImage": "cover.webp",
     "author": {
       "name": "Sun Sarun",
       "profile": "../profile.webp",
@@ -28,7 +28,7 @@
       },
     {
       "type": "image",
-      "url": "minecraft.webp",
+      "url": "christitus.webp",
       "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
     },
      {
