@@ -98,12 +98,12 @@
     },
     {
       "type": "paragraph",
-      "text": "Open fileexploror and move to \\Document and create a Folder \\MinecraftServer then create a YML file\n in the folder \\MinecraftServer\\docker-compose.yml"
+      "text": "Open File Exploror and move to \\Document and create a Folder \\MinecraftServer then create a YML file\n in the folder \\MinecraftServer\\docker-compose.yml"
     },
     {
       "type": "code",
       "language": "docker-compose.yml",
-      "code": "/* Example Monochrome Design Tokens */\n:root {\n  --bg-primary: #050505;\n  --bg-secondary: #111111;\n  --border-subtle: #222222;\n  --text-primary: #ffffff;\n  --text-secondary: #a0a0a0;\n  --text-muted: #666666;\n  --font-serif: 'Newsreader', Georgia, serif;\n  --font-sans: 'Inter', system-ui, sans-serif;\n  --font-mono: 'JetBrains Mono', monospace;\n}"
+      "code": "# =====================================================================\n# DOCKER COMPOSE CONFIGURATION\n# Hosts: Playit.gg Agent, Minecraft Bedrock (PE), and Terraria Vanilla\n# =====================================================================\n\nservices:\n  # -------------------------------------------------------------------\n  # 1. Playit.gg Tunneling Service\n  # Maps internal ports to external URLs so friends can join without port forwarding.\n  # -------------------------------------------------------------------\n  playit:\n    image: ghcr.io/playit-cloud/playit-agent:0.17\n    container_name: playit-agent\n\n    # Allows Playit to directly read network ports on the host system (127.0.0.1)\n    network_mode: host\n\n    # Ensures the tunnel automatically restarts if the server reboots or crashes\n    restart: unless-stopped\n\n    environment:\n      # Your unique Playit account secret key\n      - SECRET_KEY=\n\n  # -------------------------------------------------------------------\n  # 2. Minecraft Pocket Edition / Bedrock Server\n  # -------------------------------------------------------------------\n  minecraft-be:\n    image: itzg/minecraft-bedrock-server:latest\n    container_name: minecraft-bedrock\n    restart: unless-stopped\n\n    ports:\n      # Default Minecraft Bedrock port (UDP protocol)\n      - \"19132:19132/udp\"\n\n    environment:\n      # Required by Mojang: Must be TRUE to accept the End User License Agreement\n      - EULA=TRUE\n\n      # World and server display settings\n      - SERVER_NAME=My Bedrock Server\n      - GAMEMODE=survival               # Options: survival, creative, adventure\n      - DIFFICULTY=hard                # Options: peaceful, easy, normal, hard\n      - MAX_PLAYERS=10                 # Maximum concurrent player slots\n\n    volumes:\n      # Save worlds, player data, and logs locally in ./minecraft-data\n      - ./minecraft-data:/data\n\n  # -------------------------------------------------------------------\n  # 3. Vanilla Terraria Dedicated Server\n  # Configured for a Large World with Master Mode difficulty\n  # -------------------------------------------------------------------\n  terraria:\n    image: ghcr.io/beardedio/terraria:vanilla-latest\n    container_name: terraria-server\n    restart: unless-stopped\n\n    # Required for interactive server execution to keep the console alive\n    tty: true\n    stdin_open: true\n\n    ports:\n      # Default Terraria server port (TCP protocol)\n      - \"7777:7777/tcp\"\n\n    volumes:\n      # Mounts local ./terraria-data directory to /world inside the container\n      - ./terraria-data:/world\n\n    # Command-line arguments passed directly to the Terraria executable\n    command: >\n      -world /world/MyWorld.wld\n      -autocreate 3\n      -worldname MyWorld\n      -seed fortheworthy\n      -difficulty 2\n      -maxplayers 8"
     },
     {
       "type": "paragraph",
@@ -120,7 +120,7 @@
     },
     {
       "type": "blockquote",
-      "text": "Good typography is invisible; great dark mode typography is effortless."
+      "text": "Thank You for your time and support."
     }
   ]
 }
