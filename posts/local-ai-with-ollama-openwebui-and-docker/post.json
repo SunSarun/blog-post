@@ -1,78 +1,78 @@
 {
-"id": "local-ai-with-ollama-openwebui-and-docker",
-    "slug": "local-ai-with-ollama-openwebui-and-docker",
-    "title": "Hosting Local AI with Ollama, OpenwebUI on Docker",
-    "subtitle": "hosting your local ai for privacy and control",
-    "date": "2026-08-08",
-    "coverImage": "ollama-docker.webp",
-    "author": {
-      "name": "Sun Sarun",
-      "profile": "../profile.webp",
-      "handle": "@Sun_Sarun",
-      "role": "IT Support"
+  "id": "local-ai-with-ollama-openwebui-and-docker",
+  "slug": "local-ai-with-ollama-openwebui-and-docker",
+  "title": "Hosting Local AI with Ollama, OpenwebUI on Docker",
+  "subtitle": "hosting your local ai for privacy and control",
+  "date": "2026-08-08",
+  "coverImage": "ollama-docker.webp",
+  "author": {
+    "name": "Sun Sarun",
+    "profile": "../profile.webp",
+    "handle": "@Sun_Sarun",
+    "role": "IT Support"
+  },
+  "category": "Hosting",
+  "tags": ["Game", "Server","Hosting"],
+  "readTime": "5 min read",
+  "featured": false,
+  "summary": "a guide to set up your local AI",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Hosting your very own AI is easy the hard part is own and finding hardware to run in on in the age of AI everything expensive and sometime even you have the finance to buy doesn't you can buy. Hardware become rare and people go back and reused old hardware to run things."
     },
-    "category": "Hosting",
-    "tags": ["Game", "Server","Hosting"],
-    "readTime": "5 min read",
-    "featured": false,
-    "summary": "a guide to set up your local AI",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Hosting your very own AI is easy the hard part is own and finding hardware to run in on in the age of AI everything expensive and sometime even you have the finance to buy doesn't you can buy. Hardware become rare and people go back and reused old hardware to run things."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "1. Local AI Diagram"
-      },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. Local AI Diagram"
+    },
     {
       "type": "image",
       "url": "diagram.webp",
       "caption": ""
     },
-     {
-        "type": "paragraph",
-        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "2. Setup Local AI"
-      },
+    {
+      "type": "paragraph",
+      "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Setup Local AI"
+    },
     {
       "type": "image",
       "url": "ollama-docker.webp",
       "caption": ""
     },
     {
-        "type": "paragraph",
-        "text": "Install docker on your system."
-      },
+      "type": "paragraph",
+      "text": "Install docker on your system."
+    },
     {
-        "type": "heading",
-        "level": 2,
-        "text": "2.1 Window System"
-      },{
+      "type": "heading",
+      "level": 2,
+      "text": "2.1 Install Docker Desktop (Window System)"
+    },{
       "type": "image",
       "url": "../minecraft-hosting-with-docker-dockercompose-and-reverseproxy/what-is-docker.webp",
       "caption": ""
     },
 
     {
-        "type": "paragraph",
-        "text": "Download Docker Desktop from offical source."
-      },
-   {
+      "type": "paragraph",
+      "text": "Download Docker Desktop from offical source."
+    },
+    {
       "type": "code",
       "language": "URL",
       "code": "https://docs.docker.com/desktop/setup/install/windows-install/"
     },
     {
-        "type": "heading",
-        "level": 2,
-        "text": "2.3 Linux System (Arch Linux)"
-      },
+      "type": "heading",
+      "level": 2,
+      "text": "2.3 Install Docker and Docker-Compose (Arch Linux)"
+    },
     {
       "type": "image",
       "url": "../minecraft-hosting-with-docker-dockercompose-and-reverseproxy/arch.webp",
@@ -80,9 +80,9 @@
     },
 
     {
-        "type": "paragraph",
-        "text": "Run Install command in Terminal"
-      },
+      "type": "paragraph",
+      "text": "Run Install command in Terminal"
+    },
     {
       "type": "code",
       "language": "bash",
@@ -93,15 +93,15 @@
     {
       "type": "code",
       "language": "docker-compose",
-      "code": "/* Example Monochrome Design Tokens */\n:root {\n  --bg-primary: #050505;\n  --bg-secondary: #111111;\n  --border-subtle: #222222;\n  --text-primary: #ffffff;\n  --text-secondary: #a0a0a0;\n  --text-muted: #666666;\n  --font-serif: 'Newsreader', Georgia, serif;\n  --font-sans: 'Inter', system-ui, sans-serif;\n  --font-mono: 'JetBrains Mono', monospace;\n}"
+      "code": ""
     },
-      {
-        "type": "paragraph",
-        "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
-      },
-      {
-        "type": "blockquote",
-        "text": "Good typography is invisible; great dark mode typography is effortless."
-      }
-    ]
+    {
+      "type": "paragraph",
+      "text": ""
+    },
+    {
+      "type": "blockquote",
+      "text": "Good typography is invisible; great dark mode typography is effortless."
+    }
+  ]
 }
