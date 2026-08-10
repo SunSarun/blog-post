@@ -23,7 +23,7 @@
     },
     {
       "type": "heading",
-      "level": 1,
+      "level": 2,
       "text": "1. Window System"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "type": "heading",
-      "level": 1,
+      "level": 2,
       "text": "2. Linux (Arch Linux)"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "type": "paragraph",
-      "text": "After install completed,Restart your System" 
+      "text": "After installation is completed, Restart your System" 
     },
     {
       "type": "heading",
@@ -87,28 +87,49 @@
     {
       "type": "image",
       "url": "playitCreateAccount.webp",
-      "caption": "Create Playit.gg Account."
+      "caption": "1. Create Playit.gg Account."
     },
     {
       "type": "image",
       "url": "newtoken.webp",
-      "caption": "Select: Setup > New Account Wizard."
+      "caption": "2. Select: Setup > New Account Wizard."
     },
     {
       "type": "image",
       "url": "docker-token.webp",
-      "caption": "Select: Docker."
+      "caption": "3. Select: Docker."
     },
     {
       "type": "image",
       "url": "docker-docker-token-name.webp",
-      "caption": "Name the Agent."
+      "caption": "4. Name the Agent."
     },
     {
       "type": "image",
       "url": "secretkey.webp",
-      "caption": "Copy the Secret Key."
+      "caption": "5. Copy/Save the Secret Key."
     },
+    {
+      "type": "image",
+      "url": "newTunel.webp",
+      "caption": "6. Tunnel > Create Tunnel > Name Tunnel"
+    },
+    {
+      "type": "image",
+      "url": "selectGame.webp",
+      "caption": "7. Select Minecraft Bedrock."
+    },
+    {
+      "type": "image",
+      "url": "assignIPandIP.webp",
+      "caption": "8. Select you Named Agent and Check IP."
+    },
+    {
+      "type": "image",
+      "url": "finishTunnel.webp",
+      "caption": "9. Finished create tunnel."
+    },
+
     {
       "type": "heading",
       "level": 2,
@@ -125,7 +146,7 @@
     },
     {
       "type": "code",
-      "language": "yaml",
+      "language": "docker-compose.yml",
       "code": "# =====================================================================\n# DOCKER COMPOSE CONFIGURATION\n# Hosts: Playit.gg Agent and Minecraft Bedrock (PE)\n# =====================================================================\n\nservices:\n  # -------------------------------------------------------------------\n  # 1. Playit.gg Tunneling Service\n  # Maps internal ports to external URLs so friends can join without port forwarding.\n  # -------------------------------------------------------------------\n  playit:\n    image: ghcr.io/playit-cloud/playit-agent:0.17\n    container_name: playit-agent\n\n    # Allows Playit to directly read network ports on the host system (127.0.0.1)\n    network_mode: host\n\n    # Ensures the tunnel automatically restarts if the server reboots or crashes\n    restart: unless-stopped\n\n    environment:\n      # Your unique Playit account secret key\n      - SECRET_KEY=\n\n  # -------------------------------------------------------------------\n  # 2. Minecraft Pocket Edition / Bedrock Server\n  # -------------------------------------------------------------------\n  minecraft-be:\n    image: itzg/minecraft-bedrock-server:latest\n    container_name: minecraft-bedrock\n    restart: unless-stopped\n\n    ports:\n      # Default Minecraft Bedrock port (UDP protocol)\n      - \"19132:19132/udp\"\n\n    environment:\n      # Required by Mojang: Must be TRUE to accept the End User License Agreement\n      - EULA=TRUE\n\n      # World and server display settings\n      - SERVER_NAME=My Bedrock Server\n      - GAMEMODE=survival               # Options: survival, creative, adventure\n      - DIFFICULTY=hard                # Options: peaceful, easy, normal, hard\n      - MAX_PLAYERS=10                 # Maximum concurrent player slots\n\n    volumes:\n      # Save worlds, player data, and logs locally in ./minecraft-data\n      - ./minecraft-data:/data"
     },
     {
