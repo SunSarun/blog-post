@@ -72,7 +72,7 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "3.2. Getting Reverse Proxy Token From Playit.gg"
+      "text": "3. Getting Reverse Proxy Token From Playit.gg"
     },
     {
       "type": "image",
@@ -129,11 +129,17 @@
       "url": "finishTunnel.webp",
       "caption": "9. Finished create tunnel."
     },
+    {
+      "type": "image",
+      "url": "checkip.webp",
+      "caption": "Check your Public IP in Tunnel tab"
+    },
+
 
     {
       "type": "heading",
       "level": 2,
-      "text": "3.3. Create Docker Compose File"
+      "text": "3.1. Create Docker Compose File"
     },
     {
       "type": "image",
@@ -156,17 +162,17 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "3.4 Running the Server"
+      "text": "3.3 Running the Server"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3.5 Run on Window 11."
+      "text": "3.4 Run on Window 11."
     },
    {
       "type": "heading",
       "level": 3,
-      "text": "3.6 Run on ArchLinux."
+      "text": "3.5 Run on ArchLinux."
     },
     {
       "type": "code",
