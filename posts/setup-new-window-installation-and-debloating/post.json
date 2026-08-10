@@ -3,7 +3,7 @@
   "slug": "setup-new-window-installation-and-debloating",
   "title": "Prepare Window System After a Fresh Installation",
   "subtitle": "Fast Minimalist window without bloat",
-  "date": "2026-08-08",
+  "date": "2026-08-02",
   "coverImage": "cover.webp",
   "author": {
     "name": "Sun Sarun",
@@ -65,6 +65,17 @@
       "text": "Open your Search bar and search powershell then run it as Adminstrator."
     },
     {
+      "type": "image",
+      "url": "searchPowerShell.webp",
+      "caption": "Run as Adminstrator."
+    },
+    {
+      "type": "image",
+      "url": "runCommand.webp",
+      "caption": ""
+    },
+
+    {
       "type": "code",
       "language": "docker-compose",
       "code": "irm https://christitus.com/win | iex"
@@ -80,8 +91,23 @@
     },
     {
       "type": "image",
-      "url": "title-screen.webp",
-      "caption": ""
+      "url": "HomeScreen.webp",
+      "caption": "Tool Menu"
+    },
+    {
+      "type": "image",
+      "url": "twenk.webp",
+      "caption": "1. Click Tweak"
+    },
+    {
+      "type": "image",
+      "url": "standardOption.webp",
+      "caption": "2. Click Standard"
+    },
+    {
+      "type": "image",
+      "url": "debloating.webp",
+      "caption": "Click Run Tweaks"
     },
     {
       "type": "paragraph",
