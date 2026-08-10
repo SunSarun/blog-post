@@ -95,19 +95,23 @@
       "caption": "Tool Menu"
     },
     {
+      "type": "paragraph",
+      "text": "The Chris Titus Tech Windows Utility is an all-in-one graphical PowerShell tool designed to debloat Windows 10 and 11, install and update hundreds of programs via WinGet, manage privacy settings, configure Windows Update policies, and apply system fixes."
+    },
+    {
       "type": "image",
       "url": "twenk.webp",
-      "caption": "1. Click Tweak"
+      "caption": "1. Click: Tweak"
     },
     {
       "type": "image",
       "url": "standardOption.webp",
-      "caption": "2. Click Standard"
+      "caption": "2. Click: Standard"
     },
     {
       "type": "image",
       "url": "debloating.webp",
-      "caption": "3. Click Run Tweaks"
+      "caption": "3. Click: Run Tweaks"
     },
     {
       "type": "paragraph",
