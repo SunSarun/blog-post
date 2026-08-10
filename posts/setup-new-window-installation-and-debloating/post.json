@@ -107,19 +107,15 @@
     {
       "type": "image",
       "url": "debloating.webp",
-      "caption": "Click Run Tweaks"
+      "caption": "3. Click Run Tweaks"
     },
     {
       "type": "paragraph",
-      "text": ""
+      "text": "After completetion. Restart your System."
     },
-    {
-      "type": "paragraph",
-      "text": ""
-    },
-    {
+        {
       "type": "blockquote",
-      "text": "Good typography is invisible; great dark mode typography is effortless."
+      "text": "Thank You for your time and support.<3"
     }
   ]
 }
