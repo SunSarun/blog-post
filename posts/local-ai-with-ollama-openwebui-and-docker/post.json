@@ -1,8 +1,8 @@
 {
 "id": "local-ai-with-ollama-openwebui-and-docker",
     "slug": "local-ai-with-ollama-openwebui-and-docker",
-    "title": "Hosting Loal AI with Ollama, OpenwebUI on Docker",
-    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+    "title": "Hosting Local AI with Ollama, OpenwebUI on Docker",
+    "subtitle": "hosting your local ai for privacy and control",
     "date": "2026-08-08",
     "coverImage": "ollama-docker.webp",
     "author": {
@@ -15,21 +15,21 @@
     "tags": ["Game", "Server","Hosting"],
     "readTime": "5 min read",
     "featured": false,
-    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+    "summary": "a guide to set up your local AI",
     "content": [
       {
         "type": "paragraph",
-        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+        "text": "Hosting your very own AI is easy the hard part is own and finding hardware to run in on in the age of AI everything expensive and sometime even you have the finance to buy doesn't you can buy. Hardware become rare and people go back and reused old hardware to run things."
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "1. Installing Docker and Docker-Compose"
+        "text": "1. Local AI Diagram"
       },
     {
       "type": "image",
       "url": "diagram.webp",
-      "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
+      "caption": ""
     },
      {
         "type": "paragraph",
@@ -38,17 +38,58 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "2. Create and Run Docker Compose File"
+        "text": "2. Setup Local AI"
       },
     {
       "type": "image",
       "url": "ollama-docker.webp",
-      "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
+      "caption": ""
     },
     {
         "type": "paragraph",
-        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+        "text": "Install docker on your system."
       },
+    {
+        "type": "heading",
+        "level": 2,
+        "text": "2.1 Window System"
+      },{
+      "type": "image",
+      "url": "../minecraft-hosting-with-docker-dockercompose-and-reverseproxy/what-is-docker.webp",
+      "caption": ""
+    },
+
+    {
+        "type": "paragraph",
+        "text": "Download Docker Desktop from offical source."
+      },
+   {
+      "type": "code",
+      "language": "URL",
+      "code": "https://docs.docker.com/desktop/setup/install/windows-install/"
+    },
+    {
+        "type": "heading",
+        "level": 2,
+        "text": "2.3 Linux System (Arch Linux)"
+      },
+    {
+      "type": "image",
+      "url": "../minecraft-hosting-with-docker-dockercompose-and-reverseproxy/arch.webp",
+      "caption": ""
+    },
+
+    {
+        "type": "paragraph",
+        "text": "Run Install command in Terminal"
+      },
+    {
+      "type": "code",
+      "language": "bash",
+      "code": "# Update system packages, install Docker and Docker Compose, then enable and start the Docker service,\n# and add the current user to the 'docker' group to run Docker commands without sudo.\nsudo pacman -Syu docker docker-compose && sudo systemctl enable --now docker.service && sudo usermod -aG docker $USER"
+    },
+
+
     {
       "type": "code",
       "language": "docker-compose",
