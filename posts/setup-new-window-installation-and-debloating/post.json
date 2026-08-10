@@ -1,7 +1,7 @@
 {
   "id": "setup-new-window-installation-and-debloating",
   "slug": "setup-new-window-installation-and-debloating",
-  "title": "Prepare window system after after fresh installation",
+  "title": "Prepare Window System After a Fresh Installation",
   "subtitle": "Fast Minimalist window without bloat",
   "date": "2026-08-08",
   "coverImage": "cover.webp",
@@ -14,13 +14,17 @@
   "category": "Hosting",
   "tags": ["Window","Debloating","Minimalist"],
   "readTime": "10 min read",
-  "featured": false,
   "summary": "guide to debloat your freshly install window system",
   "content": [
     {
       "type": "paragraph",
-      "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+      "text": "Why Debloating Window?"
     },
+    {
+      "type": "paragraph",
+      "text": "Debloat Windows with purpose of improve perfomance, remove pre-installed apps, stop background tracking, and clean up the user interface. The main goals are freeing up system resources, improving privacy, and stopping unwanted advertisements or suggested software recommendations."
+    },
+
     {
       "type": "heading",
       "level": 2,
@@ -28,15 +32,19 @@
     },
     {
       "type": "heading",
-      "level": 2,
+      "level": 3,
       "text": "1.1 Is it safe?"
     },
-
     {
       "type": "image",
       "url": "christitus.webp",
       "caption": "Trust Youtuber and Community Build Window Debloat Tools."
+    }, 
+    {
+      "type": "blockquote",
+      "text": "Yes, It Completely Safe."
     },
+
     {
       "type": "paragraph",
       "text": "The Tool is completely safe. the tool is FOSS and develop with hundrad of develop on the project. Meaning hundred of people is reading the code if anything malicious is commit to the code, they would know and stop it before it cause problem on people computer. since it's opensource you can also read it."
@@ -48,7 +56,7 @@
     },
     {
       "type": "heading",
-      "level": 2,
+      "level": 3,
       "text": "1.2 Running the Tool"
     },
 
@@ -68,20 +76,20 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "2. Create and Run Docker Compose File"
+      "text": "2. Use the Tool"
     },
     {
       "type": "image",
-      "url": "minecraft.webp",
-      "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
+      "url": "title-screen.webp",
+      "caption": ""
     },
     {
       "type": "paragraph",
-      "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+      "text": ""
     },
     {
       "type": "paragraph",
-      "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
+      "text": ""
     },
     {
       "type": "blockquote",
