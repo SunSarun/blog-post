@@ -1,10 +1,7 @@
 [
-  "/posts/monochrome-manifesto/post.json",
-  "/posts/json-as-content-engine/post.json",
-  "/posts/digital-brutalism-and-clarity/post.json",
-  "/posts/typography-in-the-dark/post.json",
   "/posts/minecraft-hosting-with-docker-dockercompose-and-reverseproxy/post.json",
   "/posts/local-ai-with-ollama-openwebui-and-docker/post.json",
   "/posts/setup-edge-type1hypervisor-using-arch-qemu-and-cockpit/post.json",
-  "/posts/remote-ssh-through-cloudflare/post.json"
+  "/posts/remote-ssh-through-cloudflare/post.json",
+  "/posts/setup-new-window-installation-and-debloating/post.json"
 ]
