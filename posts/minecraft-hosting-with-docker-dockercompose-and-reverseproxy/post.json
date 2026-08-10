@@ -171,9 +171,18 @@
     {
       "type": "code",
       "language": "bash",
-      "code": "Docker compose up ~/MinecraftServer/docker-compose.yml"
+      "code": "cd ~/MinecraftServer/docker-compose.yml && docker compose up"
     },
-
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. Join my MCPE server"
+    },
+    {
+      "type": "code",
+      "language": "IP",
+      "code": "atoms-clones.tun.ply.gg:26033"
+    },
 
     {
       "type": "blockquote",
