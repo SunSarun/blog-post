@@ -12,7 +12,7 @@
     "role": "IT Support"
   },
   "category": "Hosting",
-  "tags": ["Game", "Server","Hosting"],
+  "tags": ["Server","Hosting","LLM","AI"],
   "readTime": "5 min read",
   "summary": "a guide to set up your local AI",
   "content": [
@@ -99,6 +99,44 @@
       "language": "docker-compose.yaml",
       "code": "version: '3.8'\n\nnetworks:\n  ai-network:\n    driver: bridge\n\nservices:\n  ollama:\n    image: ollama/ollama:latest\n    container_name: ollama\n    volumes:\n      - ollama_data:/root/.ollama\n    restart: unless-stopped\n    networks:\n      - ai-network\n\n  open-webui:\n    image: ghcr.io/open-webui/open-webui:main\n    container_name: open-webui\n    volumes:\n      - open-webui_data:/app/backend/data\n    ports:\n      - \"0.0.0.0:3000:8080\"\n    environment:\n      - OLLAMA_BASE_URL=http://ollama:11434\n      - WEB_SEARCH_CONCURRENT_REQUESTS=1\n    extra_hosts:\n      - \"host.docker.internal:host-gateway\"\n    restart: unless-stopped\n    depends_on:\n      - ollama\n      - searxng\n    networks:\n      - ai-network\n\n  searxng:\n    image: searxng/searxng:latest\n    container_name: searxng\n    restart: unless-stopped\n    ports:\n      - \"127.0.0.1:8888:8080\" # Exposed to local host only for safety\n    volumes:\n      - ./searxng:/etc/searxng:rw\n    environment:\n      - SEARXNG_BASE_URL=http://localhost:8888/\n    networks:\n      - ai-network\n    depends_on:\n      - searxng-redis\n\n  searxng-redis:\n    image: valkey/valkey:8-alpine\n    container_name: searxng-redis\n    restart: unless-stopped\n    command: redis-server --save \"\" --appendonly no\n    networks:\n      - ai-network\n\nvolumes:\n  ollama_data:\n  open-webui_data:"
     },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. Run Docker-compse.file"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Run Docker-compse.file on Window"
+    },
+    {
+      "type": "paragraph",
+      "text": "Move to LLM folder and run command"
+    },
+
+    {
+      "type": "code",
+      "language": "bash",
+      "code": "docker compose up"
+    },
+
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Run Docker-compse.file on Linux"
+    },{
+      "type": "paragraph",
+      "text": "Move to folder and run command"
+    },
+
+    {
+      "type": "code",
+      "language": "bash",
+      "code": "docker compose up"
+    },
+
+
+
     {
       "type": "paragraph",
       "text": ""
