@@ -182,7 +182,28 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "4. Join my MCPE server"
+      "text": "4. Sever Test"
+    },
+    {
+      "type": "image",
+      "url": "config.webp",
+      "caption": "Server Config"
+    },
+    {
+      "type": "image",
+      "url": "gameplay1.webp",
+      "caption": ""
+    },
+    {
+      "type": "image",
+      "url": "gameplay2.webp",
+      "caption": ""
+    },
+
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. Join my MCPE server"
     },
     {
       "type": "code",
