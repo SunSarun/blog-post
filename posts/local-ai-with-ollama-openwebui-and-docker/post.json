@@ -190,12 +190,17 @@
     },
     {
       "type": "paragraph",
-      "text": "Click on Manage > Past your prefer model in the \"Pull a model from Ollama.com\"\nBroswe models using link below."
+      "text": "Click on Manage > Past your prefer model in the \"Pull a model from Ollama.com\" then click on the Download symbol.\nBroswe models using link below."
     },
     {
       "type": "code",
       "language": "URL",
       "code": "https://ollama.com/library"
+    },
+    {
+      "type": "image",
+      "url": "running.webp",
+      "caption": "Prompt: History of computer timeline"
     },
 
     {
