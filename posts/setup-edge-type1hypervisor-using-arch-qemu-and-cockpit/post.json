@@ -97,11 +97,10 @@
       "text": "3.2 Install Hypervisor Tools"
     },
     {
-      "type": "code",
-      "language": "bash",
-      "code": "sudo pacman -S qemu-full qemu-img libvirt virt-install virt-manager virt-viewer \
-edk2-ovmf dnsmasq swtpm guestfs-tools libosinfo tuned"
-    },
+  "type": "code",
+  "language": "bash",
+  "code": "sudo pacman -S qemu-full qemu-img libvirt virt-install virt-manager virt-viewer edk2-ovmf dnsmasq swtpm guestfs-tools libosinfo tuned"
+ },
 
     {
       "type": "paragraph",
