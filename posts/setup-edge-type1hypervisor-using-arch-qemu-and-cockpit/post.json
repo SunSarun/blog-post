@@ -79,7 +79,7 @@
     },
     {
       "type": "image",
-      "url": "Arch_Linux_ISOLINUX_screenshot.webp",
+      "url": "archinstall.webp",
       "caption": ""
     },
     {
@@ -101,11 +101,7 @@
       "language": "bash",
       "code": "sudo pacman -S qemu-full qemu-img libvirt virt-install virt-manager virt-viewer edk2-ovmf dnsmasq swtpm guestfs-tools libosinfo tuned"
     },
-    {
-  "type": "paragraph",
-  "text": "* **qemu-full** - user-space KVM emulator, manages communication between hosts and VMs\n* **qemu-img** - provides create, convert, modify, and snapshot, offline disk images\n* **libvirt** - an open-source API, daemon, and tool for managing platform virtualization\n* **virt-install** - CLI tool to create guest VMs\n* **virt-manager** - GUI tool to create and manage guest VMs\n* **virt-viewer** - GUI console to connect to running VMs\n* **edk2-ovmf** - enables UEFI support for VMs\n* **dnsmasq** - lightweight DNS forwarder and DHCP server\n* **swtpm** - TPM (Trusted Platform Module) emulator for VMs\n* **guestfs-tools** - provides a set of extended CLI tools for managing VMs\n* **libosinfo** - a library for managing OS information for virtualization.\n* **tuned** - system tuning service for linux allows us to optimise the hypervisor for speed."
-},
-    {
+      {
       "type": "paragraph",
       "text": ""
     },
