@@ -124,9 +124,10 @@
       "type": "heading",
       "level": 3,
       "text": "4. Run Docker-compse.file on Linux"
-    },{
+    },
+    {
       "type": "paragraph",
-      "text": "Move to folder and run command"
+      "text": "Move to LLM folder and run command"
     },
 
     {
@@ -135,12 +136,68 @@
       "code": "docker compose up"
     },
 
-
-
+{
+      "type": "heading",
+      "level": 2,
+      "text": "5. Usage"
+    },
     {
       "type": "paragraph",
-      "text": ""
+      "text": "If you install on your current machine. use IP below to access OpenWebUi Dashboard."
     },
+    {
+      "type": "code",
+      "language": "IP",
+      "code": "http://localhost:3000/"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you install on a server. use your server IP with port 3000 opened to access OpenWebUi Dashboard."
+    },
+    {
+      "type": "code",
+      "language": "IP",
+      "code": "http://<server's IP>:3000/"
+    },
+{
+      "type": "paragraph",
+      "text": "After you log in, you need to download a LLM model."
+    },
+    {
+      "type": "image",
+      "url": "adminpanel.webp",
+      "caption": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Click on Profile > Admin Panel"
+    },
+
+    {
+      "type": "image",
+      "url": "downloadModel.webp",
+      "caption": ""
+    },
+{
+      "type": "paragraph",
+      "text": "Click on Setting > Models"
+    },
+
+{
+      "type": "image",
+      "url": "pullmodel.webp",
+      "caption": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Click on Manage > Past your prefer model in the \"Pull a model from Ollama.com\"\nBroswe models using link below."
+    },
+    {
+      "type": "code",
+      "language": "URL",
+      "code": "https://ollama.com/library"
+    },
+
     {
       "type": "blockquote",
       "text": "Thank You for your time and support. <3"
