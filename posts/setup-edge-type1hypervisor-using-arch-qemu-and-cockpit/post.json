@@ -70,6 +70,54 @@
     },
     {
       "type": "paragraph",
+      "text": "qemu-full - user-space KVM emulator, manages communication between hosts and VMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "qemu-img - provides create, convert, modify, and snapshot, offline disk images"
+    },
+    {
+      "type": "paragraph",
+      "text": "libvirt - an open-source API, daemon, and tool for managing platform virtualization"
+    },
+    {
+      "type": "paragraph",
+      "text": "virt-install - CLI tool to create guest VMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "virt-manager - GUI tool to create and manage guest VMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "virt-viewer - GUI console to connect to running VMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "edk2-ovmf - enables UEFI support for VMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "dnsmasq - lightweight DNS forwarder and DHCP server"
+    },
+    {
+      "type": "paragraph",
+      "text": "swtpm - TPM (Trusted Platform Module) emulator for VMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "guestfs-tools - provides a set of extended CLI tools for managing VMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "libosinfo - a library for managing OS information for virtualization."
+    },
+    {
+      "type": "paragraph",
+      "text": "tuned - system tuning service for linux allows us to optimise the hypervisor for speed."
+    },
+    {
+      "type": "paragraph",
       "text": "We will be following the guide above."
     },
     {
