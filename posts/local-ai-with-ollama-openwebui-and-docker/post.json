@@ -136,7 +136,7 @@
       "code": "docker compose up"
     },
 
-{
+    {
       "type": "heading",
       "level": 2,
       "text": "5. Usage"
@@ -159,7 +159,7 @@
       "language": "IP",
       "code": "http://<server's IP>:3000/"
     },
-{
+    {
       "type": "paragraph",
       "text": "After you log in, you need to download a LLM model."
     },
@@ -178,12 +178,12 @@
       "url": "downloadModel.webp",
       "caption": ""
     },
-{
+    {
       "type": "paragraph",
       "text": "Click on Setting > Models"
     },
 
-{
+    {
       "type": "image",
       "url": "pullmodel.webp",
       "caption": ""
@@ -198,9 +198,14 @@
       "code": "https://ollama.com/library"
     },
     {
+      "type": "paragraph",
+      "text": "Testing Model"
+    },
+
+    {
       "type": "image",
-      "url": "running.webp",
-      "caption": "Prompt: History of computer timeline"
+      "url": "new-run.webp",
+      "caption": "Prompt: write an analog clock using python and qt framework"
     },
 
     {
