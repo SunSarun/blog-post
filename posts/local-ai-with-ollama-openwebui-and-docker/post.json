@@ -49,12 +49,12 @@
       "type": "heading",
       "level": 3,
       "text": "2.1 Install Docker Desktop (Window System)"
-    },{
+    },
+    {
       "type": "image",
       "url": "../minecraft-hosting-with-docker-dockercompose-and-reverseproxy/what-is-docker.webp",
-      "caption": ""
+      "caption": "Docker is a isolated container ."
     },
-
     {
       "type": "paragraph",
       "text": "Download Docker Desktop from offical source."
@@ -64,6 +64,12 @@
       "language": "URL",
       "code": "https://docs.docker.com/desktop/setup/install/windows-install/"
     },
+    {
+      "type": "image",
+      "url": "installldocker.webp",
+      "caption": "Installing docker on Window"
+    },
+
     {
       "type": "heading",
       "level": 3,
@@ -107,13 +113,17 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Run Docker-compse.file on Window"
+      "text": "4.1 Run Docker-compse.file on Window"
     },
     {
       "type": "paragraph",
       "text": "Move to LLM folder and run command"
     },
-
+    {
+      "type": "image",
+      "url": "windowrun.webp",
+      "caption": ""
+    },
     {
       "type": "code",
       "language": "bash",
@@ -123,13 +133,17 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Run Docker-compse.file on Linux"
+      "text": "4.2 Run Docker-compse.file on Linux"
     },
     {
       "type": "paragraph",
       "text": "Move to LLM folder and run command"
     },
-
+    {
+      "type": "image",
+      "url": "linuxrun.webp",
+      "caption": ""
+    },
     {
       "type": "code",
       "language": "bash",
