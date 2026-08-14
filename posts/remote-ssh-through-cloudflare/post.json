@@ -3,7 +3,7 @@
     "slug": "remote-ssh-through-cloudflare",
     "title": "Set up SSH remote from public domain to Home server",
     "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
-    "date": "2026-08-08",
+    "date": "2026-08-11",
     "coverImage": "ssh-through-cloudflare.webp",
     "author": {
       "name": "Sun Sarun",
@@ -11,10 +11,9 @@
       "handle": "@Sun_Sarun",
       "role": "IT Support"
     },
-    "category": "Hosting",
-    "tags": ["Game", "Server","Hosting"],
-    "readTime": "5 min read",
-    "featured": false,
+    "category": "Remoting",
+    "tags": ["Server","Remote","SSH"],
+    "readTime": "10 min read",
     "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
     "content": [
       {

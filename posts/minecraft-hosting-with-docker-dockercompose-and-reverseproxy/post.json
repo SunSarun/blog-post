@@ -3,7 +3,7 @@
   "slug": "minecraft-hosting-with-docker-dockercompose-and-reverseproxy",
   "title": "Hosting Minecraft Bedrock Dedicated Server with Docker, Docker Compose and Reverse Proxy",
   "subtitle": "The best way to host Minecraft",
-  "date": "2026-08-01",
+  "date": "2026-07-21",
   "coverImage": "minecraft.webp",
   "author": {
     "name": "Sun Sarun",
@@ -13,9 +13,8 @@
   },
   "category": "Hosting",
   "tags": ["Game", "Server","Hosting","Window", "Linux","Minecraft","Reverse-Proxy"],
-  "readTime": "15 min read",
-  "featured": true,
-  "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
+  "readTime": "13 min read",
+  "summary": "guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
   "content": [
     {
       "type": "paragraph",
@@ -48,7 +47,7 @@
     {
       "type": "image",
       "url": "../local-ai-with-ollama-openwebui-and-docker/installdocker.webp",
-      "caption": "Docker Desktop"
+      "caption": "Installing Docker Desktop"
     },
     {
       "type": "heading",

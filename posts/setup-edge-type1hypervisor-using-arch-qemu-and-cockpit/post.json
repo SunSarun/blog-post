@@ -11,14 +11,14 @@
     "handle": "@Sun_Sarun",
     "role": "IT Support"
   },
-  "category": "Hosting",
-  "tags": ["Server","Hosting", "Experimental"],
+  "category": "Virtualization",
+  "tags": ["Server","Hosting", "Experimental","Virtualization"],
   "readTime": "20 min read",
   "summary": "Experimental Server Not for Production",
   "content": [
     {
       "type": "paragraph",
-      "text": ""
+      "text": "Experimenting with How to setup a Type 1 Hypervisor from scratch with Arch Linux."
     },
     {
       "type": "heading",
