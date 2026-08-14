@@ -105,11 +105,6 @@
       "url": "archconfiginstall.webp",
       "caption": "Archinstall configuration for installation"
     },
-    {
-      "type": "image",
-      "url": "archinstalling.webp",
-      "caption": "Install Arch Linux"
-    },
 
     {
       "type": "heading",
