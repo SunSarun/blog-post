@@ -75,7 +75,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3.1 Arch Installation"
+      "text": "4.1 Arch Installation"
     },
     {
       "type": "image",
@@ -114,7 +114,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3.2 Install Hypervisor Tools"
+      "text": "4.2 Install Hypervisor Tools"
     },
     {
       "type": "code",
@@ -133,8 +133,8 @@
 
     {
       "type": "heading",
-      "level": 3,
-      "text": "4. Accessing the Web Dashboard"
+      "level": 2,
+      "text": "5. Accessing the Web Dashboard"
     },
     {
       "type": "image",
@@ -162,8 +162,8 @@
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "5. Runing VM"
+      "level": 2,
+      "text": "6. Runing VM"
     },
     {
       "type": "image",
