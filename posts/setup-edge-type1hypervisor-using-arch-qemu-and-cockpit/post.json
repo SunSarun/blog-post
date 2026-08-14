@@ -68,7 +68,7 @@
       "language": "URL",
       "code": "https://gist.github.com/tatumroaquin/c6464e1ccaef40fd098a4f31db61ab22#file-archlinux-qemu-kvm-md"
     },
-   {
+    {
       "type": "paragraph",
       "text": "We will be following the guide above."
     },
@@ -93,7 +93,7 @@
     },
     {
       "type": "image",
-      "url": "archinstall.webp",
+      "url": "archinstsallcmd.webp",
       "caption": ""
     },
     {
@@ -121,7 +121,7 @@
       "language": "bash",
       "code": "sudo pacman -S qemu-full qemu-img libvirt virt-install virt-manager virt-viewer edk2-ovmf dnsmasq swtpm guestfs-tools libosinfo tuned"
     },
-      {
+    {
       "type": "paragraph",
       "text": "Run the commad after Arch is installed."
     },
@@ -131,7 +131,7 @@
       "caption": "Installing Services"
     },
 
-        {
+    {
       "type": "heading",
       "level": 3,
       "text": "4. Accessing the Web Dashboard"
@@ -164,10 +164,6 @@
       "type": "heading",
       "level": 3,
       "text": "5. Runing VM"
-    },
-    {
-      "type": "paragraph",
-      "text": ""
     },
     {
       "type": "image",
