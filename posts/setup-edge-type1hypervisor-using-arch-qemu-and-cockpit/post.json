@@ -92,6 +92,26 @@
       "code": "archinstall"
     },
     {
+      "type": "image",
+      "url": "archinstall.webp",
+      "caption": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Archinstall Configuration."
+    },
+    {
+      "type": "image",
+      "url": "archconfiginstall.webp",
+      "caption": ""
+    },
+    {
+      "type": "image",
+      "url": "archinstalling.web",
+      "caption": ""
+    },
+
+    {
       "type": "heading",
       "level": 3,
       "text": "3.2 Install Hypervisor Tools"
@@ -103,9 +123,19 @@
     },
       {
       "type": "paragraph",
-      "text": ""
+      "text": "Run the commad after Arch is installed."
+    },
+    {
+      "type": "image",
+      "url": "runcmd.webp",
+      "caption": "Installing Services"
     },
 
+        {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Accessing the Web Dashboard"
+    },
     {
       "type": "image",
       "url": "arch-hyper.webp",
@@ -113,12 +143,36 @@
     },
     {
       "type": "paragraph",
-      "text": ""
+      "text": "Local Machine."
+    },
+
+    {
+      "type": "code",
+      "language": "URL",
+      "code": "http://localhost:9090/"
+    },
+    {
+      "type": "paragraph",
+      "text": "Remote Server"
     },
     {
       "type": "code",
-      "language": "docker-compose",
-      "code": ""
+      "language": "URL",
+      "code": "http://<server's ip>:9090/"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Runing VM"
+    },
+    {
+      "type": "paragraph",
+      "text": ""
+    },
+    {
+      "type": "image",
+      "url": "runvm.webp",
+      "caption": "Window VM"
     },
     {
       "type": "paragraph",
