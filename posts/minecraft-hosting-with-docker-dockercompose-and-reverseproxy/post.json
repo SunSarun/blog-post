@@ -46,6 +46,11 @@
       "code": "https://docs.docker.com/desktop/setup/install/windows-install/"
     },
     {
+      "type": "image",
+      "url": "../local-ai-with-ollama-openwebui-and-docker/installdocker.webp",
+      "caption": "Docker Desktop"
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "2. Linux (Arch Linux)"
@@ -169,10 +174,27 @@
       "level": 3,
       "text": "3.4 Run on Window 11."
     },
+    {
+      "type": "image",
+      "url": "../local-ai-with-ollama-openwebui-and-docker/windowrun.webp",
+      "caption": "Run command in Docker Desktop Terminal"
+    },
+
+    {
+      "type": "code",
+      "language": "cmd",
+      "code": "docker compose up"
+    },
+
    {
       "type": "heading",
       "level": 3,
       "text": "3.5 Run on ArchLinux."
+    },
+    {
+      "type": "image",
+      "url": "../local-ai-with-ollama-openwebui-and-docker/linuxrun.webp",
+      "caption": "Run command in the Terminal"
     },
     {
       "type": "code",
