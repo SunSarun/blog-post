@@ -70,8 +70,8 @@
         "type": "list",
         "style": "checklist",
         "items": [
-          { "text": "**Step 1**: Run npm run build", "checked": true },
-          { "text": "**Step 2**: Deploy static assets", "checked": false }
+          { "text": "**Step 1**: Run npm run build"},
+          { "text": "**Step 2**: Deploy static assets"}
         ]
       },
       {
