@@ -56,6 +56,43 @@
       {
         "type": "paragraph",
         "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
+      },{
+        "type": "table",
+        "caption": "Benchmark Results",
+        "headers": ["Framework", "Bundle Size", "Speed"],
+        "alignments": ["left", "center", "right"],
+        "rows": [
+          ["Svelte 5", "12 KB", "99.8/100"],
+          ["Vanilla", "4 KB", "100/100"]
+        ]
+      },
+      {
+        "type": "list",
+        "style": "checklist",
+        "items": [
+          { "text": "**Step 1**: Run npm run build", "checked": true },
+          { "text": "**Step 2**: Deploy static assets", "checked": false }
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://svelte.dev",
+        "title": "Svelte Framework",
+        "description": "Cybernetically enhanced web applications.",
+        "siteName": "svelte.dev",
+        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600"
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "PRO TIP",
+        "text": "You can use **bold** and `inline code` anywhere in text blocks."
+      },
+      {
+        "type": "stat",
+        "stats": [
+          { "value": "99.8%", "label": "Lighthouse Score", "change": "+12%", "changeType": "positive" }
+        ]
       },
       {
         "type": "blockquote",
