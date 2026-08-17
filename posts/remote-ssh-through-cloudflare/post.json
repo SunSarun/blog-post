@@ -3,7 +3,7 @@
   "slug": "remote-ssh-through-cloudflare",
   "title": "Set up SSH to remote Home server using Cloudflare",
   "subtitle": "SSH using Cloudflare Zero Trust",
-  "date": "2026-08-11",
+  "date": "2026-08-14",
   "coverImage": "ssh-through-cloudflare.webp",
   "author": {
     "name": "Sun Sarun",
@@ -13,7 +13,7 @@
   },
   "category": "Remoting",
   "tags": ["Server","Remote","SSH"],
-  "readTime": "10 min read",
+  "readTime": "25 min read",
   "summary": "guide to set up a ssh connection remotely to home server.",
   "content": [
     {
@@ -79,7 +79,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2.2 Install CloudFlared on Sever (Arch Linux)"
+      "text": "2.1.1 Install CloudFlared on Sever (Arch Linux)"
     },
 
     {
@@ -100,7 +100,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2.3 Connect Cloudlfared to Tunnel"
+      "text": "2.1.2 Connect Cloudlfared to Tunnel"
     },
     {
       "type": "image",
@@ -111,7 +111,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2.4 Create Access Policy"
+      "text": "2.1.3 Create Access Policy"
     },
 
     {
@@ -128,7 +128,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2.3 Create Application Access"
+      "text": "2.1.4 Create Application Access"
     },
     {
       "type": "image",
@@ -155,6 +155,76 @@
       "url": "applicationAfterConfig.webp",
       "caption": ""
     },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2.2.1 Create Client Tunnel"
+    },
+    {
+      "type": "image",
+      "url": "addClient.webp",
+      "caption": ""
+    },
+    {
+      "type": "image",
+      "url": "clientInstallCloudflared.webp",
+      "caption": ""
+    },
+{
+      "type": "image",
+      "url": "clientInstallCloudflared2.webp",
+      "caption": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Create SSH Config File"
+    },
+    {
+      "type": "code",
+      "language": "Bash",
+      "code": "mkdir -p ~/.ssh\ntouch ~/.ssh/config\nchmod 700 ~/.ssh\nchmod 600 ~/.ssh/config\nnano ~/.ssh/config"
+    },
+    {
+      "type": "paragraph",
+      "text": "Past and Confin code below to you Domain"
+    },
+    {
+      "type": "code",
+      "language": "Bash",
+      "code": "Host ssh.<domain>\nUser alpha\nProxyCommand cloudflared access ssh --hostname %h"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sign in using command below"
+    },
+    {
+      "type": "image",
+      "url": "clientAuth.webp",
+      "caption": ""
+    },
+    {
+      "type": "code",
+      "language": "Bash",
+      "code": "cloudflared access ssh --hostname ssh.yourdomain.com"
+    },
+    {
+      "type": "image",
+      "url": "clientauthSignin.webp",
+      "caption": ""
+    },
+    {
+      "type": "image",
+      "url": "clientAuthAccessFul.webp",
+      "caption": ""
+    },
+
+
+
+
+
+
+
+
     {
       "type": "heading",
       "level": 2,
@@ -268,7 +338,7 @@
     },
     {
       "type": "blockquote",
-      "text": "Good typography is invisible; great dark mode typography is effortless."
+      "text": "Thank You for your Time and Support.<3"
     }
   ]
 }
