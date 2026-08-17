@@ -170,7 +170,7 @@
       "url": "clientInstallCloudflared.webp",
       "caption": ""
     },
-{
+    {
       "type": "image",
       "url": "clientInstallCloudflared2.webp",
       "caption": ""
@@ -186,12 +186,12 @@
     },
     {
       "type": "paragraph",
-      "text": "Past and Confin code below to you Domain"
+      "text": "Past and Config code below to your Domain"
     },
     {
       "type": "code",
       "language": "Bash",
-      "code": "Host ssh.<domain>\nUser alpha\nProxyCommand cloudflared access ssh --hostname %h"
+      "code": "Host ssh.<your domain>\nUser <your user name>\nProxyCommand cloudflared access ssh --hostname %h"
     },
     {
       "type": "paragraph",
@@ -205,7 +205,7 @@
     {
       "type": "code",
       "language": "Bash",
-      "code": "cloudflared access ssh --hostname ssh.yourdomain.com"
+      "code": "cloudflared access ssh --hostname ssh.<your domain.com>"
     },
     {
       "type": "image",
@@ -217,13 +217,6 @@
       "url": "clientAuthAccessFul.webp",
       "caption": ""
     },
-
-
-
-
-
-
-
 
     {
       "type": "heading",
@@ -256,87 +249,7 @@
       "url": "clientConnectComplete2.webp",
       "caption": ""
     },
-
-
-
-
-
-
-
-
-
-
-
-    {
-      "type": "image",
-      "url": "ssh-through-cloudflare.webp",
-      "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
-    },
-    {
-      "type": "paragraph",
-      "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "2. Create and Run Docker Compose File"
-    },
-    {
-      "type": "image",
-      "url": "ssh-through-cloudflare.webp",
-      "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
-    },
-    {
-      "type": "paragraph",
-      "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-    },
-    {
-      "type": "code",
-      "language": "docker-compose",
-      "code": "/* Example Monochrome Design Tokens */\n:root {\n  --bg-primary: #050505;\n  --bg-secondary: #111111;\n  --border-subtle: #222222;\n  --text-primary: #ffffff;\n  --text-secondary: #a0a0a0;\n  --text-muted: #666666;\n  --font-serif: 'Newsreader', Georgia, serif;\n  --font-sans: 'Inter', system-ui, sans-serif;\n  --font-mono: 'JetBrains Mono', monospace;\n}"
-    },
-    {
-      "type": "paragraph",
-      "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
-    },{
-      "type": "table",
-      "caption": "Benchmark Results",
-      "headers": ["Framework", "Bundle Size", "Speed"],
-      "alignments": ["left", "center", "right"],
-      "rows": [
-        ["Svelte 5", "12 KB", "99.8/100"],
-        ["Vanilla", "4 KB", "100/100"]
-      ]
-    },
-    {
-      "type": "list",
-      "style": "checklist",
-      "items": [
-        { "text": "**Step 1**: Run npm run build"},
-        { "text": "**Step 2**: Deploy static assets"}
-      ]
-    },
-    {
-      "type": "link",
-      "url": "https://svelte.dev",
-      "title": "Svelte Framework",
-      "description": "Cybernetically enhanced web applications.",
-      "siteName": "svelte.dev",
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600"
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "PRO TIP",
-      "text": "You can use **bold** and `inline code` anywhere in text blocks."
-    },
-    {
-      "type": "stat",
-      "stats": [
-        { "value": "99.8%", "label": "Lighthouse Score", "change": "+12%", "changeType": "positive" }
-      ]
-    },
-    {
+   {
       "type": "blockquote",
       "text": "Thank You for your Time and Support.<3"
     }
