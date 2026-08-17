@@ -85,7 +85,7 @@
     {
       "type": "image",
       "url": "cmdInstall.webp",
-      "caption": "Run Command blow"
+      "caption": "Run Command below"
     },
     {
       "type": "code",
@@ -120,6 +120,12 @@
       "caption": "Search: Access Control, > Policy > Create New Policy"
     },
     {
+      "type": "image",
+      "url": "policyConfig.webp",
+      "caption": "Config Policy"
+    },
+
+    {
       "type": "heading",
       "level": 3,
       "text": "2.3 Create Application Access"
@@ -129,6 +135,64 @@
       "url": "createApplicationAccess.webp",
       "caption": "Search: Access Control, > Application > Create New Application"
     },
+    {
+      "type": "image",
+      "url": "applicationConfig1.webp",
+      "caption": ""
+    },
+    {
+      "type": "image",
+      "url": "applicationConfig2.webp",
+      "caption": ""
+    },
+    {
+      "type": "image",
+      "url": "applicationConfig3.webp",
+      "caption": ""
+    },
+    {
+      "type": "image",
+      "url": "applicationAfterConfig.webp",
+      "caption": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. Connect Using Web Portal"
+    },
+    {
+      "type": "image",
+      "url": "webAccessing.webp",
+      "caption": ""
+    },
+    {
+      "type": "image",
+      "url": "webAfterLogin.webp",
+      "caption": ""
+    },
+
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. Connect Using Terminal"
+    },
+    {
+      "type": "image",
+      "url": "clientconnectComplete.webp",
+      "caption": ""
+    },
+    {
+      "type": "image",
+      "url": "clientConnectComplete2.webp",
+      "caption": ""
+    },
+
+
+
+
+
+
+
 
 
 
