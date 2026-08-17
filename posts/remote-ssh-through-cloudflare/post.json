@@ -1,102 +1,210 @@
 {
-"id": "remote-ssh-through-cloudflare",
-    "slug": "remote-ssh-through-cloudflare",
-    "title": "Set up SSH remote from public domain to Home server",
-    "subtitle": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
-    "date": "2026-08-11",
-    "coverImage": "ssh-through-cloudflare.webp",
-    "author": {
-      "name": "Sun Sarun",
-      "profile": "../profile.webp",
-      "handle": "@Sun_Sarun",
-      "role": "IT Support"
+  "id": "remote-ssh-through-cloudflare",
+  "slug": "remote-ssh-through-cloudflare",
+  "title": "Set up SSH to remote Home server using Cloudflare",
+  "subtitle": "SSH using Cloudflare Zero Trust",
+  "date": "2026-08-11",
+  "coverImage": "ssh-through-cloudflare.webp",
+  "author": {
+    "name": "Sun Sarun",
+    "profile": "../profile.webp",
+    "handle": "@Sun_Sarun",
+    "role": "IT Support"
+  },
+  "category": "Remoting",
+  "tags": ["Server","Remote","SSH"],
+  "readTime": "10 min read",
+  "summary": "guide to set up a ssh connection remotely to home server.",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Cloudflare Zero Trust is a security platform that replaces traditional corporate VPNs. It checks every user identity, device health, and context before granting access to internal apps or the web. It operates on Cloudflare's global network, applying least-privilege rules without slow network bottlenecks."
     },
-    "category": "Remoting",
-    "tags": ["Server","Remote","SSH"],
-    "readTime": "10 min read",
-    "summary": "A guide to seft-hosting a Minecraft server with docker and a proxy for hiding you real IP from what the web, for plaing with friend or small community.",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "1. Installing Docker and Docker-Compose"
-      },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. Cloudflare Account"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1.1 Sign Up"
+    },
+    {
+      "type": "image",
+      "url": "cloudflareSignup.webp",
+      "caption": "Signing up for a Cloudflare Account."
+    },
+
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1.2 Registering a Domain Name"
+    },
+    {
+      "type": "image",
+      "url": "purchaseDomain.webp",
+      "caption": "Purchase a Domain Name."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Create Tunnels"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2.1 Create Server Tunnel"
+    },
+    {
+      "type": "image",
+      "url": "createTunnel.webp",
+      "caption": "Network > Tunnel > Create Tunnel "
+    },
+    {
+      "type": "image",
+      "url": "selectApplicationAccess.webp",
+      "caption": "Select: Self-hosted > Public DNS"
+    },
+    {
+      "type": "image",
+      "url": "route.webp",
+      "caption": "Config Application Route"
+    },
+    {
+      "type": "image",
+      "url": "connector.webp",
+      "caption": "Copy Connection Command on Sever"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2.2 Install CloudFlared on Sever (Arch Linux)"
+    },
+
+    {
+      "type": "image",
+      "url": "cmdInstall.webp",
+      "caption": "Run Command blow"
+    },
+    {
+      "type": "code",
+      "language": "Bash",
+      "code": "sudo pacman -Syu Cloudflared"
+    },
+    {
+      "type": "image",
+      "url": "cmdInstall2.webp",
+      "caption": "Run Command"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2.3 Connect Cloudlfared to Tunnel"
+    },
+    {
+      "type": "image",
+      "url": "cmdRunCloudflared.webp",
+      "caption": "Past Connection Commmand and Run"
+    },
+
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2.4 Create Access Policy"
+    },
+
+    {
+      "type": "image",
+      "url": "createAccessPolicy.webp",
+      "caption": "Search: Access Control, > Policy > Create New Policy"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2.3 Create Application Access"
+    },
+    {
+      "type": "image",
+      "url": "createApplicationAccess.webp",
+      "caption": "Search: Access Control, > Application > Create New Application"
+    },
+
+
+
+
     {
       "type": "image",
       "url": "ssh-through-cloudflare.webp",
       "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
     },
-     {
-        "type": "paragraph",
-        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "2. Create and Run Docker Compose File"
-      },
+    {
+      "type": "paragraph",
+      "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Create and Run Docker Compose File"
+    },
     {
       "type": "image",
       "url": "ssh-through-cloudflare.webp",
       "caption": "Figure 1.1: Brutalist concrete geometry emphasizing stark shadows and raw spatial weight."
     },
     {
-        "type": "paragraph",
-        "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
-      },
+      "type": "paragraph",
+      "text": "Light emitting from high-contrast OLED displays behaves differently than ink on paper. When displaying pure white text `#FFFFFF` on absolute black `#000000`, thin serif fonts can appear to bleed or glow outward, a phenomenon known as halation."
+    },
     {
       "type": "code",
       "language": "docker-compose",
       "code": "/* Example Monochrome Design Tokens */\n:root {\n  --bg-primary: #050505;\n  --bg-secondary: #111111;\n  --border-subtle: #222222;\n  --text-primary: #ffffff;\n  --text-secondary: #a0a0a0;\n  --text-muted: #666666;\n  --font-serif: 'Newsreader', Georgia, serif;\n  --font-sans: 'Inter', system-ui, sans-serif;\n  --font-mono: 'JetBrains Mono', monospace;\n}"
     },
-      {
-        "type": "paragraph",
-        "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
-      },{
-        "type": "table",
-        "caption": "Benchmark Results",
-        "headers": ["Framework", "Bundle Size", "Speed"],
-        "alignments": ["left", "center", "right"],
-        "rows": [
-          ["Svelte 5", "12 KB", "99.8/100"],
-          ["Vanilla", "4 KB", "100/100"]
-        ]
-      },
-      {
-        "type": "list",
-        "style": "checklist",
-        "items": [
-          { "text": "**Step 1**: Run npm run build"},
-          { "text": "**Step 2**: Deploy static assets"}
-        ]
-      },
-      {
-        "type": "link",
-        "url": "https://svelte.dev",
-        "title": "Svelte Framework",
-        "description": "Cybernetically enhanced web applications.",
-        "siteName": "svelte.dev",
-        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600"
-      },
-      {
-        "type": "callout",
-        "variant": "tip",
-        "title": "PRO TIP",
-        "text": "You can use **bold** and `inline code` anywhere in text blocks."
-      },
-      {
-        "type": "stat",
-        "stats": [
-          { "value": "99.8%", "label": "Lighthouse Score", "change": "+12%", "changeType": "positive" }
-        ]
-      },
-      {
-        "type": "blockquote",
-        "text": "Good typography is invisible; great dark mode typography is effortless."
-      }
-    ]
+    {
+      "type": "paragraph",
+      "text": "To counteract halation and maintain effortless legibility, soft off-white text (`#E5E5E5` or `#F0F0F0`) paired with slightly increased line spacing (`1.7` to `1.85`) produces optimal optical balance."
+    },{
+      "type": "table",
+      "caption": "Benchmark Results",
+      "headers": ["Framework", "Bundle Size", "Speed"],
+      "alignments": ["left", "center", "right"],
+      "rows": [
+        ["Svelte 5", "12 KB", "99.8/100"],
+        ["Vanilla", "4 KB", "100/100"]
+      ]
+    },
+    {
+      "type": "list",
+      "style": "checklist",
+      "items": [
+        { "text": "**Step 1**: Run npm run build"},
+        { "text": "**Step 2**: Deploy static assets"}
+      ]
+    },
+    {
+      "type": "link",
+      "url": "https://svelte.dev",
+      "title": "Svelte Framework",
+      "description": "Cybernetically enhanced web applications.",
+      "siteName": "svelte.dev",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "PRO TIP",
+      "text": "You can use **bold** and `inline code` anywhere in text blocks."
+    },
+    {
+      "type": "stat",
+      "stats": [
+        { "value": "99.8%", "label": "Lighthouse Score", "change": "+12%", "changeType": "positive" }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Good typography is invisible; great dark mode typography is effortless."
+    }
+  ]
 }
